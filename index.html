@@ -9,6 +9,9 @@
     footer {
       text-align: center;
     }
+    .card {
+      margin: 30px auto; /* 添加此规则以使卡片居中 */
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -16,16 +19,11 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img class="placeholder-glow" src="..."></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">首页</a>
+          <a class="nav-link active" aria-current="page" href="https://charmingcc.github.io">首页</a>
           <a class="nav-link" href="#">关于我</a>
-          <a class="nav-link" href="#">最新项目</a>
-          <a class="nav-link" href="#">联系我</a>
+          <a class="nav-link" href="https://charmingcc.github.io/CCpages/">ccpages</a>
         </div>
       </div>
     </div>
@@ -33,6 +31,17 @@
   <div class="container-fluid">
     <div class="row gx-0">
       <div class="col-md-3">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">个人信息</h5>
+            <p class="card-text">
+              姓名：张三<br>
+              年龄：25<br>
+              性别：男<br>
+            </p>
+          </div>
+        </div>
       </div>
       <div class="col-md-6">
         <!-- 主要内容显示区域 -->
